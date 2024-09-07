@@ -52,7 +52,7 @@ class ContadorPalabras
   contador.imprimir_frecuencia
   
   cadena2 = "Los amigos de Naruto, como Sasuke y Sakura, lo apoyan en su viaje. Naruto 
-siempre cree en el poder de la amistad y la perseverancia"
+siempre cree en el poder de la amistad"
   contador.actualizar_texto(cadena2)
   contador.imprimir_frecuencia
   
