@@ -35,8 +35,6 @@ class ContadorPalabras
       end
     end
   
-    # -------------MODIFICACIONES DE LA TAREA 3-----------------------------------
-    # Este método permite actualizar el valor de la variable de instancia @texto.
     def actualizar_texto(nuevo_texto)
       @texto = nuevo_texto
     end
