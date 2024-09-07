@@ -28,8 +28,14 @@ class ContadorPalabras
         puts "#{palabra.capitalize} => #{cuenta}"
       end
     end
+    def actualizar_texto(nuevo_texto)
+        @texto = nuevo_texto
+    end
   end
   # Ejemplo de uso
   cadena = "Naruto es un ninja con un gran sueño. Naruto quiere ser Hokage, el ninja más fuerte de la aldea. En su camino, Naruto enfrenta muchos desafíos, pero nunca se rinde. Los amigos de Naruto, como Sasuke y Sakura, lo apoyan en su viaje. Naruto siempre cree en el poder de la amistad y la perseverancia."
   contador = ContadorPalabras.new(cadena)
   contador.imprimir_frecuencia
+  contador.actualizar_texto("hola Mundo, hola universo")
+  contador.imprimir_frecuencia
+
