@@ -3,7 +3,6 @@ class ContadorPalabras
     def initialize(texto)
       @texto = texto
     end
-  
     # Este método cuenta las palabras repetidas utilizando un Hash para almacenar las palabras y su 
     # frecuencia.
     def contar_palabras_repetidas
@@ -18,7 +17,6 @@ class ContadorPalabras
       # Se devuelve el Hash de frecuencias.
       frecuencia
     end
-  
     # Este método imprime las palabras y sus frecuencias en el formato solicitado.
     def imprimir_frecuencia
       # Se obtiene el Hash de frecuencias llamando al método de contar palabras
@@ -31,10 +29,7 @@ class ContadorPalabras
       end
     end
   end
-  
   # Ejemplo de uso
   cadena = "Naruto es un ninja con un gran sueño. Naruto quiere ser Hokage, el ninja más fuerte de la aldea. En su camino, Naruto enfrenta muchos desafíos, pero nunca se rinde. Los amigos de Naruto, como Sasuke y Sakura, lo apoyan en su viaje. Naruto siempre cree en el poder de la amistad y la perseverancia."
   contador = ContadorPalabras.new(cadena)
   contador.imprimir_frecuencia
-  
-    
