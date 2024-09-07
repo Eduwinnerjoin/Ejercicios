@@ -28,6 +28,7 @@ class ContadorPalabras
         puts "#{palabra.capitalize} => #{cuenta}"
       end
     end
+    
     def actualizar_texto(nuevo_texto)
         @texto = nuevo_texto
     end
